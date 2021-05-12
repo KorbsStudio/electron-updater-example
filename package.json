@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.2",
+  "version": "1.1.1",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -20,9 +20,8 @@
   "build": {
     "publish": [
       {
-        "provider": "github",
-        "owner": "KorbsStudio",
-        "repo": "electron-updater-example"
+        "provider": "generic",
+        "url": "https://korbsstudio.com/update/"
       }
     ],
     "appId": "com.github.iffy.electronupdaterexample",

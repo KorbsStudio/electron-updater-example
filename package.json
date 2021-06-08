@@ -10,7 +10,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-builder build --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "deploy": "electron-builder build --publish always"
   },
   "author": "",
   "license": "ISC",
